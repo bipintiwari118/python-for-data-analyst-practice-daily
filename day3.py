@@ -87,3 +87,17 @@ if num % 2 == 0:
     print(f"{num} is an even number.")
 else:
     print(f"{num} is an odd number.")         
+
+
+
+
+#nested if statement questions
+# 1. Write a program to check if a person is eligible to vote based on their age and citizenship status.
+age = int(input("Enter your age: "))
+citizenship = input("Are you a citizen? (yes/no): ").lower()
+if age >= 18:
+    if citizenship == "yes":
+        print("You are eligible to vote.")
+    else:
+        print("You are not eligible to vote because you are not a citizen.")
+else:    print("You are not eligible to vote because you are underage.")    
