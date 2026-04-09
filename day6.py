@@ -1,4 +1,4 @@
-#Python For Data Analyst | Day 07 | Introduction to Strings |
+#Python For Data Analyst | Day 06 | Introduction to Strings |
 #String is a sequence of characters. It is a data type that is used to represent text. In Python, strings are enclosed in either single quotes (' ') or double quotes (" ").
 #Creating a string
 string1 = 'Hello, World!'
@@ -76,4 +76,4 @@ print(s8.count('o'))  # Output: 4
 list_of_strings = ['Hello', 'World', 'Python']
 separator = ' '
 joined_string = separator.join(list_of_strings)
-print(joined_string)  # Output: 'Hello World Python'
+print(joined_string)  # Output: 'Hello World Python' 
